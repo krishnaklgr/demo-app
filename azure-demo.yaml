@@ -1,29 +1,36 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: azure-demo
+  labels:
+    app: azure-demo-image
+  name: azure-demo-image
+  namespace: default
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: azure-demo
+      app: azure-demo-image
   template:
     metadata:
       labels:
-        app: azure-demo
+        app: azure-demo-image
     spec:
-      nodeSelector:
-        "beta.kubernetes.io/os": linux
       containers:
-      - name: azure-demo
-        image: openjdk:8-jdk-alpine
-        ports:
-        - containerPort: 8080
+      - name: azure-demo-image
+        image: mydemoregistrykk.azurecr.io/azure-demo-image:v1
+        imagePullPolicy: IfNotPresent
+
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: azure-demo
+  name: azure-demo-load-balancer
+  namespace: default
 spec:
+  type: LoadBalancer
   ports:
-  - port: 8080
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  selector:
+    app: azure-demo-image

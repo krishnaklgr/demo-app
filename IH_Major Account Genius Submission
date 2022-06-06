@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T20:44:44.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="TxjO2Iq1dza4g8VI0ur8" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T20:45:38.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="ccCi1TQhFsLH6f44eTWv" version="18.2.1" type="github">
   <diagram id="ky38hP7vkAqwP4JR7N_Z" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="u8_iejVe7CZ7nhXKckUc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#99CCFF;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="90" width="490" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="u8_iejVe7CZ7nhXKckUc-2" value="IH instance for Submissions" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="u8_iejVe7CZ7nhXKckUc-2" value="IH instance for Submissions" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="690" y="218" width="68" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u8_iejVe7CZ7nhXKckUc-3" value="MongoDB Atlas" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.code_file;fontFamily=Verdana;" vertex="1" parent="1">
